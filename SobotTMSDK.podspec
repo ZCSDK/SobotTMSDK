@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.name         = "SobotTMSDK"
   s.version      = "1.0.0"
   s.summary      = "A short description of SobotTMSDK."
-  s.description  = <<-DESC   智齿电销SDK
+  s.description  = <<-DESC   
+                   智齿电销SDK
                    DESC
 
   s.homepage         = "https://github.com/ZCSDK/SobotTMSDK.git"
