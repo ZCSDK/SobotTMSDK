@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/ZCSDK/SobotTMSDK.git"
   s.license          = 'MIT'
-  s.author           = { 'zhangxy' => 'app_dev@zhichi.com' }
+  s.author           = { 'zhangxy' => 'app_dev@sobot.com' }
   s.source           = { :git => "https://github.com/ZCSDK/SobotTMSDK.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '11.0'
