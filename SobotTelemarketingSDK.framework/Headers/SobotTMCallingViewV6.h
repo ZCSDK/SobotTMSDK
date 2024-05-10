@@ -68,6 +68,9 @@ typedef NS_ENUM(NSInteger,SobotTMCallingViewV6Status) {
 @property(nonatomic,copy) NSString *callID;
 
 @property(nonatomic,copy) NSString * tickName;  // 外呼任务的昵称
+
+@property(nonatomic,assign)int callFrom;// 1从工单回复拨号 不显示底部按钮
+@property(nonatomic,copy)NSString *orderId;// 工单回复 当前呼叫的工单ID
 /**
  *  创建对象方法
  */

@@ -1,0 +1,6 @@
+framework module SobotTelemarketingSDK {
+  umbrella header "SobotTelemarketingSDK.h"
+  export *
+
+  module * { export * }
+}

@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SobotTMApi.h</key>
 		<data>
-		b5rYH7U24pMy4qg1NBTBcYI9W+4=
+		eLBUm8XiKREyjXrYS7dcwQk6X8U=
 		</data>
 		<key>Headers/SobotTMCallingViewV6.h</key>
 		<data>
-		qF4GJtJ1yfVvvgBesBaHTBAf3Rc=
+		uqfL8DgySQ2Iek7tYd96q0btYGU=
 		</data>
 		<key>Headers/SobotTMClient.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/SobotTMHomeV6Controller.h</key>
 		<data>
-		5sdGZqnojDkHZYTiJfWfx2v9IV4=
+		gdaumTkYAOW8PPPKHO7+dAnwWeU=
 		</data>
 		<key>Headers/SobotTMOpenApi.h</key>
 		<data>
-		4mM+kx1ZTUSjimemF5JGX0EosM0=
+		IF6+tasu72pi9jVigqEQbc6MfG0=
 		</data>
 		<key>Headers/SobotTMParameter.h</key>
 		<data>
@@ -50,15 +50,19 @@
 		</data>
 		<key>Headers/SobotTMUITools.h</key>
 		<data>
-		rZh+OjyI5ZgAoJsrXs4Pswj8xBI=
+		/WT1+2YfQrk47Kacry3pIGFapNc=
 		</data>
-		<key>Headers/SobotTelemarketing.h</key>
+		<key>Headers/SobotTelemarketingSDK.h</key>
 		<data>
-		8nuRYQ0x1nGGWUa67xUbwStZHlc=
+		zyf7h18bI0m79tg9QxYUwIrtFUQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		azfalg5hO/fNIfU9Atod1dGrTxE=
+		izcedrCvnZJKETND7YBNxXBjFUQ=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		0zwSYK8C6gUJRJkAvVWil8Ioc2Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -78,22 +82,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b5rYH7U24pMy4qg1NBTBcYI9W+4=
+			eLBUm8XiKREyjXrYS7dcwQk6X8U=
 			</data>
 			<key>hash2</key>
 			<data>
-			LqZtOlIEMA01g9fGkXvrXao8iu/QcnoQNamMxHxPanU=
+			yoQ/jh9MQDzIrzZVuXvxUZWb/fVL4J/oAypyB1xwjuY=
 			</data>
 		</dict>
 		<key>Headers/SobotTMCallingViewV6.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qF4GJtJ1yfVvvgBesBaHTBAf3Rc=
+			uqfL8DgySQ2Iek7tYd96q0btYGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VsDpwHZsDmIlkEj2i4zlZMG2TCK0qf9812/5Ti4Ak4w=
+			cAbnfPFGjyfB34rPYtKiYCgIYPOMUJe8qNHdTldoeh4=
 			</data>
 		</dict>
 		<key>Headers/SobotTMClient.h</key>
@@ -144,22 +148,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5sdGZqnojDkHZYTiJfWfx2v9IV4=
+			gdaumTkYAOW8PPPKHO7+dAnwWeU=
 			</data>
 			<key>hash2</key>
 			<data>
-			xulTOVg6EhdcLEsIRpasGoTSWhlzNAM1P5p2Oe3cxz8=
+			kOf4pUNSwEFheqtwzVWN6p6w+5GfBnYpyYHEl8U2NrI=
 			</data>
 		</dict>
 		<key>Headers/SobotTMOpenApi.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4mM+kx1ZTUSjimemF5JGX0EosM0=
+			IF6+tasu72pi9jVigqEQbc6MfG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			t5chygF3Y3CeKlhsXxciY6jdlVXGTK+ijCuBEEiuqEI=
+			QIzeVcEKxMwwg5a+n/aIDaYu9YaWxdq24bPnlFQ+0z0=
 			</data>
 		</dict>
 		<key>Headers/SobotTMParameter.h</key>
@@ -188,22 +192,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rZh+OjyI5ZgAoJsrXs4Pswj8xBI=
+			/WT1+2YfQrk47Kacry3pIGFapNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			95X7YaZ4orcePkV8WuSFAR87ctCfBAMf7osAJNza9zs=
+			+YOl+l/u1Xy9pN7llYejvFM3XniLdtppJjaJEiR30lo=
 			</data>
 		</dict>
-		<key>Headers/SobotTelemarketing.h</key>
+		<key>Headers/SobotTelemarketingSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8nuRYQ0x1nGGWUa67xUbwStZHlc=
+			zyf7h18bI0m79tg9QxYUwIrtFUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			LA9bVyXAeX6inMtrqUBuEUKU594jmlpECN67/5f72Do=
+			L7PUPBE16HZCpfRnYfdN4Gcoq4F/kTd8mCSlPtPr3ko=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0zwSYK8C6gUJRJkAvVWil8Ioc2Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			AOrjBMReNtx61Ar5dhAt7Rhrf1KM1vdQ1Cz5qIEErKI=
 			</data>
 		</dict>
 	</dict>

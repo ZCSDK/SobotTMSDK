@@ -30,15 +30,25 @@ typedef BOOL (^SobotTMApiScribeMessage)(NSString * _Nullable common,NSDictionary
 +(void)initWithConfig:(SobotCallCacheEntity *) config result:(SobotTMResultBlock) resultBlock;
 
 //第二步
-///  登录
-/// @param account 账号
+///  登录，更多登录方式，参见[SobotCallCache doLogin:...]
+/// @param account 账号，必须
 /// @param loginPwd 密码
-/// @param token token
+/// @param token 公司token（如果不传递密码，使用单点登录获取的token）
 /// @param resultBlock 登录结果回调
 ///  账号必填，密码和token 两者必须有一个有值
 +(void)loginWithAcount:(NSString *)account
               password:(NSString * )loginPwd
                  token:(NSString *)token
+                result:(SobotTMResultBlock) resultBlock;
+
+/// // 登录方式二 以AppKey的方式登录
+/// @param account 账号
+/// @param app_key appkey
+/// @param appid  appid
+/// @param resultBlock 登录回调结果
++(void)loginWithAcount:(NSString *)account
+                appkey:(NSString *)app_key
+                 appid:(NSString *) appid
                 result:(SobotTMResultBlock) resultBlock;
 
 //第三步  消息订阅 （webscoket订阅消息） 在登录方法中合并

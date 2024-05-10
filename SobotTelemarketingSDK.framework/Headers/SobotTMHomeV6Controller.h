@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 // 登录参数
 @property(nonatomic,copy) NSString * email;
 @property(nonatomic,copy) NSString * password;
+
+// 公司token，通过单点登录获取
 @property(nonatomic,copy) NSString * token;
 
 @property(nonatomic,assign)BOOL isAddInTab;// 首页是否嵌入到uitabbarviewcorll

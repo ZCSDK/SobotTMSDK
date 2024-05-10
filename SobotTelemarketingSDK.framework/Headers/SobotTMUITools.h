@@ -92,6 +92,7 @@ typedef void(^SobotTMUISipResultBlock)(SobotMTUIToolsSipType type ,NSString *_Nu
 
 -(void)registeSip:(SobotCallSipInfo *)info resultBlock:(SobotTMUISipResultBlock) resultBlock;
 -(void)unRegister;
+-(void)checkJanusSocketUrl;
 -(void)hangUpWithApi;
 -(void)answer;
 -(void)answerWithApi;
@@ -122,6 +123,10 @@ typedef void(^SobotTMUISipResultBlock)(SobotMTUIToolsSipType type ,NSString *_Nu
 
 
 // *************** V6 呼叫View ********************
+
+// 工单SDK 回复工单使用
+-(UIView *)showCallingView:(SobotTMCallingType) type callNumber:(NSString *)number displayNumber:(NSString *) displayNumber hiddenFlag:(int )scanFtype actionFrom:(int)actionFrom orderId:(NSString *)orderId;
+
 -(SobotTMCallingViewV6 *)showCallingViewV6:(SobotTMCallingType) type callNumber:(NSString *)number hiddenFlag:(int )scanFtype statusArray:(NSMutableArray *)statusArray;
 /// 呼叫UI
 /// @param type 呼入Accpet/呼出CallUp
