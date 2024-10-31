@@ -4,7 +4,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SobotTMSDK"
-  s.version      = "1.1.1"
+  s.version      = "1.2.0"
   s.summary      = "A short description of SobotTMSDK."
   s.description  = <<-DESC   
                    智齿电销SDK
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.frameworks =  "CoreMedia","CoreVideo","CFNetwork","AVFoundation","SystemConfiguration","AudioToolbox"
 
   s.resources = 'SobotCall.bundle'
-  s.ios.vendored_frameworks = 'SobotCallLib.framework','SobotTelemarketingSDK.framework','WebRTC.framework'
- s.dependency 'SobotCommon','2.2.0'
+  s.ios.vendored_frameworks = 'SobotCallLib.framework','SobotTelemarketingSDK.framework','WebRTC.framework','SobotUserCenter.framework'
+ s.dependency 'SobotCommon','2.3.0'
 
 end

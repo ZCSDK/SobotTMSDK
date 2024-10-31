@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SobotTMAddress.h</key>
 		<data>
-		WmS2qzlppoqDrHjZDactNJm+Ngc=
+		BawfzfXjn6cjhLLV5D2jPCXs+AQ=
 		</data>
 		<key>Headers/SobotTMApi.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		izcedrCvnZJKETND7YBNxXBjFUQ=
+		IzYHZXTXmHH8SoqTASNI6MRj2bQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,11 +71,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WmS2qzlppoqDrHjZDactNJm+Ngc=
+			BawfzfXjn6cjhLLV5D2jPCXs+AQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			I4dYrrqSZB78o4KcLOy5n2CrXMyzn2CJPmb0KVFr1lY=
+			LftWGW8f+6kPI28FgZrRhRhKcvmezK2xmcIqSXGPGVU=
 			</data>
 		</dict>
 		<key>Headers/SobotTMApi.h</key>

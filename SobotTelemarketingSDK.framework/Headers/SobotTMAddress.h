@@ -177,8 +177,8 @@
 // 查询用户信息
 #define API_SearchAppUser(customerId) [NSString stringWithFormat:@"%@%@user/detail/%@",API_HOST,API_MAIN_BASIC_CUSTOMER,customerId]
 #define API_AddAppUser [NSString stringWithFormat:@"%@%@user/save",API_HOST,API_MAIN_BASIC_CUSTOMER]
-//https://www.soboten.com/crm-user-service/user/listByPage?pageNo=1&pageSize=50&isblack=0&searchType=1&searchValue=王&searchFlag=0
-#define API_SearchAppUserList(pageNo,pageSize,value,searchType)  [NSString stringWithFormat:@"%@%@user/listByPage?pageNo=%d&pageSize=%@&isblack=0&searchType=%d&searchValue=%@&searchFlag=0",API_HOST,API_MAIN_BASIC_CUSTOMER,pageNo,pageSize,searchType,value]
+//https://www.soboten.com/crm-user-service/appUser/getAppUserList?pageNo=1&pageSize=50&isblack=0&searchType=1&searchValue=王&searchFlag=0
+#define API_SearchAppUserList(pageNo,pageSize,value,searchType)  [NSString stringWithFormat:@"%@%@appUser/getAppUserList?pageNo=%d&pageSize=%@&isblack=0&searchType=%d&searchValue=%@&searchFlag=0",API_HOST,API_MAIN_BASIC_CUSTOMER,pageNo,pageSize,searchType,value]
 
 // 获取v6服务总结配置callservice/v6/tm-config/summary/config
 #define API_CommitConfigV6   [NSString stringWithFormat:@"%@%@%@/tm-config/summary/config",API_CallApiHost,API_MAIN_CALL_SERVICE,API_MAIN_TM]
@@ -243,7 +243,7 @@
 #define API_PostCallUserData(CallID) [NSString stringWithFormat:@"%@%@/%@/tm-reports/statistics/%@/details/_search",API_HOST,API_MAIN_CALL_SERVICE,API_MAIN_TM,CallID]
 
 #pragma mark -- 通过外呼电话号查询关联用户
-#define API_GetSearchCallUsers(number,text) [NSString stringWithFormat:@"%@%@/crm-user-service/user/listByPage?pageNo=1&pageSize=15&isblack=0&searchType=4&searchValue=%@&searchFlag=0",API_CallApiHost,text,number]
+#define API_GetSearchCallUsers(number,text) [NSString stringWithFormat:@"%@%@/crm-user-service/appUser/getAppUserList?pageNo=1&pageSize=15&isblack=0&searchType=4&searchValue=%@&searchFlag=0",API_CallApiHost,text,number]
 
 #pragma mark -- 回拨接口
 #define API_GetCallBack(CallID,sourceId,sourceType) [NSString stringWithFormat:@"%@/callservice/tm/tm-console/callbacks?fromCallID=%@&sourceType=%@&sourceId=%@&switchCurrentTabs=AutoJump",API_CallApiHost,CallID,sourceType,sourceId]
